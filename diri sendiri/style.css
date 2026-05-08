@@ -29,7 +29,6 @@
      padding: 0 2rem 6rem;
  }
 
- /* NAV */
  nav {
      position: fixed;
      top: 0;
@@ -70,7 +69,7 @@
      color: var(--text);
  }
 
- /* HERO */
+
  .hero {
      margin-bottom: 5rem;
      margin-top: 2rem;
@@ -145,7 +144,7 @@
      border-color: var(--text);
  }
 
- /* DIVIDER */
+ 
  hr {
      border: none;
      border-top: 0.5px solid var(--border);
@@ -160,7 +159,7 @@
      margin-bottom: 2rem;
  }
 
- /* PROJECTS */
+ 
  .projects {
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -230,7 +229,7 @@
      border-radius: 10px;
  }
 
- /* ABOUT */
+ 
  .about-grid {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -286,7 +285,7 @@
      width: 0;
  }
 
- /* CONTACT */
+ 
  .contact {
      text-align: center;
      padding: 1rem 0;
@@ -329,7 +328,7 @@
      border-color: var(--border2);
  }
 
- /* FOOTER */
+ 
  footer {
      border-top: 0.5px solid var(--border);
      margin-top: 5rem;
@@ -340,7 +339,6 @@
      color: var(--text3);
  }
 
- /* RESPONSIVE */
  @media (max-width: 580px) {
      .projects {
          grid-template-columns: 1fr;
